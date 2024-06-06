@@ -2,10 +2,7 @@
 
 int main(void)
 {
-	printf("test code\n");
-	printf("test code\n");
-	printf("test code\n");
-	printf("test code\n");
-	printf("test code\n");
+	
+	printf("哈哈哈\n");
 	return 0;
 }
