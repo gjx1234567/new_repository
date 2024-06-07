@@ -32,9 +32,18 @@ LICENSE许可证：GPL2.0，3.0，APahce2.0,Mit,这些准可证，给使用者�
 ```markdown
 	git init    //创建本地仓库，后续对仓库的操作，都要在仓库位置(master)
 ```
-```
+```markdown
 	git config -list    //查看git的配置文件
 ```
+#### 修改或添加config配置项
+```markdown
+	git config --global user.name	//用户名
+	git config --global user.email	//注册邮箱
+```
+#### 生成本机设备密文
+```ssh-keygen -t rsa -C "注册邮箱"  //创建本地密文   去对应的目录下查找密文文件
+```
+
 
 
 
