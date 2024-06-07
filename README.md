@@ -13,7 +13,7 @@ xx(socket) sample:查询对应技术(socket)的代码样本
 ### Branch 分支：
 在仓库中可以包含多个分支，分支才是代码文件的第一存储单位，默认的仓库主分支为
 master/main,可以管理代码存储，便于多人协作开发
-
+![image](https://github.com/gjx1234567/new_repository/blob/master/img/Branch.png)
 
 
 
