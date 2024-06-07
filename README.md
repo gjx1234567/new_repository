@@ -24,10 +24,17 @@ README,使用markdown语言编写，工程自述文件，开发进度，版本�
 LICENSE许可证：GPL2.0，3.0，APahce2.0,Mit,这些准可证，给使用者最大使用权限
 
 ## Git软件，分布式版本控制系统
-仓库管理软件，使用git管理私人代码或企业代码
+仓库管理软件，使用git管理私人代码或企业代码<br>
 ![image](https://github.com/gjx1234567/new_repository/blob/master/img/2.png)
 
-
+## 设备认证
+### 1、让网站的账户与设备绑定，后续完成代码的管理，上传下载
+```git
+	git init    //创建本地仓库，后续对仓库的操作，都要在仓库位置(master)
+```
+```
+	git config -list    //查看git的配置文件
+```
 
 
 
