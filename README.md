@@ -42,9 +42,20 @@ LICENSE许可证：GPL2.0，3.0，APahce2.0,Mit,这些准可证，给使用者�
 ```
 #### 生成本机设备密文
 ```markdown
-	ssh-keygen -t rsa -C "注册邮箱"  //创建本地密文   去对应的目录下查找密文文件
+	ssh-keygen -t rsa -C "注册邮箱"  //创建本地密文   
 ```
-![image](https://github.com/gjx1234567/new_repository/blob/master/img/4.png)
+** 去对应的目录查找密文文件
+```markdown 
+	rsa.pub 复制密文，粘贴 settings->SSH key GPG->new ssh key->粘贴
+	ssh -T git@github.com //测试关联是否成功
+```
+###2、为仓库起别名，定位目标仓库，后续上传
+```markdown
+	git remote add origin "ssh地址"	//为ssh仓库地址创建别名为origin
+	git remote remove origin	//删除origin别名
+```
+## 本地设备与云端仓库的交互逻辑
+
 
 
 
