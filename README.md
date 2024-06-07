@@ -1,6 +1,12 @@
 # GitHub
-## 关键字查询：
-
+### 关键字查询：
+xx(pathon) awesome:查询该标签下的xx(pathon)项目
+xx(python) tutorial:查询xx(python)资料、书籍、文档
+xx(socket) sample:查询对应技术(socket)的代码样本
+### GitHub三要素：
+#### Respository仓库：
+仓库是github项目管理存储基本能单位
+一个仓库中存储一个项目，一个用户可以拥有多个仓库，一般仓库分为public,private
 
 
 
