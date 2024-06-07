@@ -14,7 +14,18 @@ xx(socket) sample:查询对应技术(socket)的代码样本
 在仓库中可以包含多个分支，分支才是代码文件的第一存储单位，默认的仓库主分支为
 master/main,可以管理代码存储，便于多人协作开发
 ![image](https://github.com/gjx1234567/new_repository/blob/master/img/Branch.png)
+## 仓库内容
+Code,资源存储，代码资源，二进制，项目管理脚本，许可证等等
 
+issues,使用时遇到的bug或进行提交，等待反馈
+
+README,使用markdown语言编写，工程自述文件，开发进度，版本更新，使用介绍等等
+
+LICENSE许可证：GPL2.0，3.0，APahce2.0,Mit,这些准可证，给使用者最大使用权限
+
+## Git软件，分布式版本控制系统
+仓库管理软件，使用git管理私人代码或企业代码
+![image](https://github.com/gjx1234567/new_repository/blob/master/img/2.png)
 
 
 
