@@ -153,7 +153,7 @@ Markdown,文本修饰语言，用特殊符号修饰正文效果<br>
 	ps aux
 ```
 ### 超链接技术
-[Github](https://www.github.com "点击访问")
+[https://github.com/](https://www.github.com "点击访问")
 
 ### 插入图片
-
+![image](https://github.com/gjx1234567/new_repository/blob/master/img/6.png)
