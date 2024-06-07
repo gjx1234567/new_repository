@@ -49,14 +49,33 @@ LICENSE许可证：GPL2.0，3.0，APahce2.0,Mit,这些准可证，给使用者�
 	rsa.pub 复制密文，粘贴 settings->SSH key GPG->new ssh key->粘贴
 	ssh -T git@github.com //测试关联是否成功
 ```
-###2、为仓库起别名，定位目标仓库，后续上传
+### 2、为仓库起别名，定位目标仓库，后续上传
 ```markdown
 	git remote add origin "ssh地址"	//为ssh仓库地址创建别名为origin
 	git remote remove origin	//删除origin别名
 ```
 ## 本地设备与云端仓库的交互逻辑
-
-
+![image](https://github.com/gjx1234567/new_repository/blob/master/img/5.jpg)
+```markdown
+	git add .	//添加内容
+	git rm 		//删除本地文件并删除本地数据
+	git restore 	//回复被删除（仓库存在）
+```
+## 代码更新的依赖关系被破坏
+本地内容要比云端新，完成更新替换，但是如果直接修改云端内容，导致本地内容无法再次提交
+* 先拉取git pull 云端内容，与本地内容合并或操作，而后再次推即可
+```markdown
+	git pull --rebase origin master
+	git rebase --skip //忽略本地内容 保留云端内容
+	git rebase --abort //忽略本地内容 保留云端内容
+	git rebase --continue //忽略本地内容 保留云端内容
+```
+## 下载开源代码
+```markdown
+	git clone "https仓库地址" //下载开源项目code资源
+```
+## 分支Branch
+关于分支的相关命令，创建分支，选择分支，合并分支等等
 
 
 Markdown,文本修饰语言，用特殊符号修饰正文效果<br>
