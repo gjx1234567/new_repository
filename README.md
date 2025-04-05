@@ -13,7 +13,8 @@ xx(socket) sample:查询对应技术(socket)的代码样本
 ### Branch 分支：
 在仓库中可以包含多个分支，分支才是代码文件的第一存储单位，默认的仓库主分支为
 master/main,可以管理代码存储，便于多人协作开发
-![image](https://github.com/gjx1234567/new_repository/blob/master/img/1.jpg)
+![1](C:\Users\86158\Desktop\My repository\img\1.jpg)
+
 ## 仓库内容
 Code,资源存储，代码资源，二进制，项目管理脚本，许可证等等
 
@@ -25,7 +26,7 @@ LICENSE许可证：GPL2.0，3.0，APahce2.0,Mit,这些准可证，给使用者�
 
 ## Git软件，分布式版本控制系统
 仓库管理软件，使用git管理私人代码或企业代码<br>
-![image](https://github.com/gjx1234567/new_repository/blob/master/img/2.jpg)
+![2](C:\Users\86158\Desktop\My repository\img\2.jpg)
 
 ## 设备认证
 ### 1、让网站的账户与设备绑定，后续完成代码的管理，上传下载
@@ -104,6 +105,7 @@ Markdown,文本修饰语言，用特殊符号修饰正文效果<br>
 >你自己就是一座金矿
 >>苏格拉底
 >>>三级引用
+>>>
 >>>>四级引用
 
 ## 列表修饰符
@@ -156,4 +158,6 @@ Markdown,文本修饰语言，用特殊符号修饰正文效果<br>
 [https://github.com/](https://www.github.com "点击访问")
 
 ### 插入图片
-![image](https://github.com/gjx1234567/new_repository/blob/master/img/6.png)
+![6](C:\Users\86158\Desktop\My repository\img\6.png "picture")
+
+如果需要让图片现在在网络平台上，需要填写网络图片地址，得到图片的URL--比如：https://pic/temp/cs/xxx.jpg
